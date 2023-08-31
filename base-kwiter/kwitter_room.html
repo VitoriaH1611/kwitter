@@ -17,10 +17,29 @@
 
 </head>
 <body>
+  <div class="container"></div>
+  <button id="logout" onclick="logout();" class=""glyphicon glyphicon-log-out btn btn-danger>Sair</button>
 
+   <center>
+	<h1 class="header">Kwitter 
+	<sup>
+		<img src="./m2.png">
+	</sup>
+    </h1>
+	<h3 id="user_name" class="color_white"></h3>
 
+	<div class="form-group input_div_room_page" >
+		<label>#Adicionar Sala:</label>
+		<input type="text" id="room_name" class="form-control" placeholder="#Nome da Sala">
+	</div>
 
+	<button onclick="addRoom();" class="btn btn-sucess">#Adicionar Sala</button>
+	
+	<h3 class="color_white">#SALAS EM DESTAQUE</h3>
 
+	<div id="output"></div>
+	
+   </center>
 
 <script src="kwitter_room.js"></script>
 </body>
